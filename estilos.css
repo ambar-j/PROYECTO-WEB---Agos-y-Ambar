@@ -27,7 +27,7 @@ img{
 .button:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #9a128f;
+    background-color: #c6d1f1;
     color: #000000;
 }
 
@@ -213,35 +213,56 @@ main{
 }
 
 
-/*circulo imagenes*/
-.container-circulos{
-    /* display:flex; */
+/* contenedor general */
+.container-circulos {
     width: 100%;
     padding: 20px;
 }
-.container-imagen{
+
+/* cada imagen + texto */
+.container-imagen {
     width: 33%;
-    display:inline-block; 
-    align-items: center;
-    flex-direction: column;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
     padding: 20px;
+    box-sizing: border-box;
 }
-.container-imagen h2{
+
+/* título debajo de cada imagen */
+.container-imagen h2 {
     font-weight: 600;
 }
-.circulo{    
-    width: 60%;
+
+/* círculo */
+.circulo {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    border:2px solid  #e78af0;
+    border: 2px solid #e78af0;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 0 auto 15px; /* centra el círculo horizontalmente y agrega espacio inferior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.ver-todo{
+
+/* imagen dentro del círculo */
+.circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* contenedor del botón/ver más */
+.ver-todo {
     margin: 50px 0;
     width: 100%;
     text-align: center;
 }
-.contenedor-columna{
+
+/* contenedor de columnas */
+.contenedor-columna {
     width: 100%;
     max-width: 1200px;
     height: auto;
@@ -250,7 +271,6 @@ main{
     justify-content: center;
     margin: auto;
 }
-
 
 /*contacto*/
 .container-contacto{
@@ -336,7 +356,7 @@ main{
 /*productos-card*/
 .container-productos{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1900px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -346,7 +366,7 @@ main{
 .container-productos .card{
     width: 260px;
     height: 390px;
-    background: #9a128f;
+    background: #c6d1f1;
     color:#f2f2f2;
     border-radius: 8px;
     border:1px solid  #e78af0;
@@ -362,8 +382,8 @@ main{
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
 }
 .container-productos .card img{
-    width: 260px;
-    height: 190px;
+    width: 350px;
+    height: 200px;
     cursor: pointer;
 }
 .container-productos .card h5{
@@ -491,7 +511,7 @@ main{
     max-width: 1140px;
 }
 .copyright-area{
-  background: #202020;
+  background: #e78af0;
   padding: 25px 0;
 }
 .copyright-text p {
