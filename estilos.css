@@ -16,7 +16,7 @@ img{
 }
 
 .button{
-    background:#DF691A;
+    background:#e78af0;
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -27,15 +27,15 @@ img{
 .button:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #9a4912;
-    color: #f2f2f2;
+    background-color: #9a128f;
+    color: #000000;
 }
 
 
 /*menu*/
 header{
-    background:#333;
-    color:#f2f2f2;
+    background:#efc8f7;
+    color:#000000;
     padding: 1rem 0;
     position: fixed;
     left: 0;
@@ -44,7 +44,7 @@ header{
     height: 65px;
 }
 header a{
-    color: #cccccc;
+    color: #000000;
     text-decoration: none;
 }
 .menu{
@@ -59,7 +59,7 @@ header a{
     flex-wrap: wrap;
 }
 .logo{
-    color: #f2f2f2;
+    color: #000000;
     font-size: 30px;
     font-weight: 700;
 }
@@ -80,7 +80,7 @@ header a{
     font-weight: 700;
 }
 .navigation ul li a:hover{
-    color: #f2f2f2;
+    color: #b817a3;
 }
 .navigation ul .search-icon input{
     color: #000;
@@ -92,10 +92,10 @@ header a{
 }
 .navigation ul .search-icon .icon span{
     font-size: 18px;
-    color: #cccccc;
+    color: #e78af0;
 }
 .navigation ul .search-icon .icon span:hover{
-    color: #f2f2f2;
+    color: #9a128f;
 }
 .icomin{
     color: #cccccc;
@@ -125,12 +125,12 @@ header a{
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
-    color: #212529;
+    color: #b817a3;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: #000000;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 1px solid #b817a3;
     border-radius: .25rem;
     overflow-y: scroll;
 }
@@ -143,7 +143,7 @@ header a{
     display: block;
 }
 .button-vaciar{
-    background:#17A2B8;
+    background:#b817a3;
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -154,11 +154,11 @@ header a{
 .button-vaciar:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #0c505a;
+    background-color: #b817a3;
     color: #f2f2f2;
 }
 .button-pedido{
-    background:#28A745;
+    background:#d8c2da;
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -169,7 +169,7 @@ header a{
 .button-pedido:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #1e612e;
+    background-color: #b817a3;
     color: #f2f2f2;
 }
 
@@ -233,7 +233,7 @@ main{
 .circulo{    
     width: 60%;
     border-radius: 50%;
-    border:2px solid  #DF691A;
+    border:2px solid  #e78af0;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 .ver-todo{
@@ -264,7 +264,7 @@ main{
    
     width: 450px;
     margin:auto;
-    background:rgba(0,0,0,0.4);
+    background:#9a128f;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -297,7 +297,7 @@ main{
 .modal{
     width: 100%;
     min-height: 100vh;
-    background: rgba(0,0,0,0.9);
+    background: #9a128f;
     position: fixed;
     top: 0;
     left: 0;
@@ -322,7 +322,7 @@ main{
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background:#DF691A;
+    background:#e78af0;
     font-size: 2em;
     text-align: center;
     border-radius: 50%;
@@ -346,10 +346,10 @@ main{
 .container-productos .card{
     width: 260px;
     height: 390px;
-    background: #4E5D6C;
+    background: #9a128f;
     color:#f2f2f2;
     border-radius: 8px;
-    border:1px solid  #DF691A;
+    border:1px solid  #e78af0;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin: 20px;
@@ -438,7 +438,7 @@ main{
     box-sizing: border-box;
     font-size: 17px;
     border-radius: 8px;
-    border:1px solid  #DF691A;
+    border:1px solid  #e78af0;
 }
 #total{
     border: 0; 
@@ -500,7 +500,7 @@ main{
   color: #878787;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #e78af0;
   text-decoration: none;
 }
 .footer-menu li {
@@ -508,7 +508,7 @@ main{
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #e78af0;
 }
 .footer-menu li a {
   font-size: 14px;
