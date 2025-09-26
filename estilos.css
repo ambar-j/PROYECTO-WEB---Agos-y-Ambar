@@ -16,7 +16,7 @@ img{
 }
 
 .button{
-    background:#e78af0;
+    background:#9d5b94;
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -27,14 +27,13 @@ img{
 .button:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #c6d1f1;
+    background-color: #a790ce;
     color: #000000;
 }
 
-
 /*menu*/
 header{
-    background:#efc8f7;
+    background:#b2c5fb;
     color:#000000;
     padding: 1rem 0;
     position: fixed;
@@ -80,7 +79,7 @@ header a{
     font-weight: 700;
 }
 .navigation ul li a:hover{
-    color: #b817a3;
+    color:#a790ce;
 }
 .navigation ul .search-icon input{
     color: #000;
@@ -92,23 +91,23 @@ header a{
 }
 .navigation ul .search-icon .icon span{
     font-size: 18px;
-    color: #e78af0;
+    color: #a790ce;
 }
 .navigation ul .search-icon .icon span:hover{
-    color: #9a128f;
+    color: #953f74;
 }
 .icomin{
-    color: #cccccc;
+    color:#a790ce;
 }
 .icomin:hover{
-    color: #f2f2f2;
+    color: #000;
 }
 .bi-cart3{
-    color: #cccccc;
+    color: #a790ce;
     cursor: pointer;
 }
 .bi-cart3:hover{
-    color: #f2f2f2;
+    color:#953f74;
 }
 .car{
     position: relative;
@@ -125,12 +124,12 @@ header a{
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
-    color: #b817a3;
+    color: #953f74;
     text-align: left;
     list-style: none;
     background-color: #000000;
     background-clip: padding-box;
-    border: 1px solid #b817a3;
+    border: 1px solid #953f74;
     border-radius: .25rem;
     overflow-y: scroll;
 }
@@ -143,7 +142,7 @@ header a{
     display: block;
 }
 .button-vaciar{
-    background:#b817a3;
+    background:#953f74;
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -154,11 +153,11 @@ header a{
 .button-vaciar:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #b817a3;
+    background-color:#a790ce;
     color: #f2f2f2;
 }
 .button-pedido{
-    background:#d8c2da;
+    background:#a790ce;
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -169,7 +168,7 @@ header a{
 .button-pedido:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #b817a3;
+    background-color:#953f74;
     color: #f2f2f2;
 }
 
@@ -238,7 +237,7 @@ main{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 2px solid #e78af0;
+    border: 2px solid #a376b2;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin: 0 auto 15px; /* centra el círculo horizontalmente y agrega espacio inferior */
@@ -284,7 +283,7 @@ main{
    
     width: 450px;
     margin:auto;
-    background:#9a128f;
+    background:#b2c5fb;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -317,7 +316,7 @@ main{
 .modal{
     width: 100%;
     min-height: 100vh;
-    background: #9a128f;
+    background: #9d5b94;
     position: fixed;
     top: 0;
     left: 0;
@@ -342,7 +341,7 @@ main{
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background:#e78af0;
+    background:#a376b2;
     font-size: 2em;
     text-align: center;
     border-radius: 50%;
@@ -366,10 +365,10 @@ main{
 .container-productos .card{
     width: 260px;
     height: 390px;
-    background: #c6d1f1;
+    background: #b2c5fb;
     color:#f2f2f2;
     border-radius: 8px;
-    border:1px solid  #e78af0;
+    border:1px solid  #a376b2;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin: 20px;
@@ -458,7 +457,7 @@ main{
     box-sizing: border-box;
     font-size: 17px;
     border-radius: 8px;
-    border:1px solid  #e78af0;
+    border:1px solid  #a376b2;
 }
 #total{
     border: 0; 
@@ -492,7 +491,7 @@ main{
 }
 .tabla td, .tabla th {
     padding: .75rem;
-    border-top: 1px solid #dee2e6;
+    border-top: 1px solid #b2c5fb;
     text-align: center;
 
 }
@@ -511,16 +510,16 @@ main{
     max-width: 1140px;
 }
 .copyright-area{
-  background: #e78af0;
+  background: #b2c5fb;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #953f74;
 }
 .copyright-text p a{
-  color: #e78af0;
+  color: #9d5b94;
   text-decoration: none;
 }
 .footer-menu li {
@@ -528,11 +527,11 @@ main{
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #e78af0;
+  color: #a790ce;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color:#953f74;
   text-decoration: none;
 }
 .row-footer {
