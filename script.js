@@ -1,6 +1,7 @@
+
     document.addEventListener('DOMContentLoaded', () => {
     const products = [
-     {id: 1, name: 'Cookies Clásicas', price: 350, category: 'galletitas', icon: '🍪', desc: 'Deliciosas galletitas con chips de chocolate belga, horneadas artesanalmente. Crocantes por fuera, suaves por dentro. El sabor tradicional que todos aman.'},
+            {id: 1, name: 'Cookies Clásicas', price: 350, category: 'galletitas', icon: '🍪', desc: 'Deliciosas galletitas con chips de chocolate belga, horneadas artesanalmente. Crocantes por fuera, suaves por dentro. El sabor tradicional que todos aman.'},
             {id: 2, name: 'Cookies de Vainilla', price: 320, category: 'galletitas', icon: '🥠', desc: 'Galletitas de vainilla natural con un toque de manteca. Perfectas para acompañar tu café o té. Suaves y aromáticas.'},
             {id: 3, name: 'Cookies Red Velvet', price: 380, category: 'galletitas', icon: '❤️', desc: 'Nuestras famosas cookies con el sabor único del red velvet y chips de chocolate blanco. Un toque de elegancia en cada mordida.'},
             {id: 4, name: 'Cookies de Avena', price: 340, category: 'galletitas', icon: '🌾', desc: 'Cookies saludables de avena con pasas y un toque de canela. Perfectas para un snack nutritivo. Energía natural y deliciosa.'},
@@ -152,9 +153,10 @@
     }
 
     window.toggleCart = function() {
-        const modal = document.getElementById('cartModal');
-        modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
-    };
+    const modal = document.getElementById('cartModal');
+    // Alternar visibilidad del carrito
+    modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
+};
 
     window.checkout = function() {
         if (cart.length === 0) {
